@@ -14,7 +14,7 @@ This is a site for introducing Linux!
 
 Please navigate through below link to install your VM under the tab Pre-built VMs and select the VM based on your preferration. (if you haven't done it yet)
 
-https://www.kali.org/get-kali/#kali-virtual-machines
+<a href="https://www.kali.org/get-kali/#kali-virtual-machines" target="_blank">Kali Linux VM</a>
 
 ## 1.1 Introduction to terms and concepts
 > - Binary programs are usually stored in the /usr/bin or /usr/sbin directory.
