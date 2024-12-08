@@ -1,11 +1,11 @@
 ---
-title: "First Post"
-date: 2023-03-03 12:00:00 +0530
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]    , TAG names should always be lowercase
+title: Introduction to Linux
+time: 2024-12-9 02:30:00
+categories: [Linux]
+tags: [knowledge, linux]
 ---
 
-<!-- 
+
 This is a site for introducing Linux!
 
 ## Before Starting to Know About Linux
@@ -32,4 +32,4 @@ Please navigate through below link to install your VM under the tab Pre-built VM
   - Shell (A shell is an environment and interpreter for executing commands on a Linux system.)
     - bash (Bourne-again shell)
     - C shell
-    - Z shell  -->
+    - Z shell 
