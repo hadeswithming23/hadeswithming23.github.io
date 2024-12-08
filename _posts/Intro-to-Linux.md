@@ -1,6 +1,6 @@
 ---
 title: Introduction to Linux
-time: 2024-12-9 02:30:00
+time: 2024-12-09 02:30:00
 categories: [Linux]
 tags: [knowledge, linux]
 ---
