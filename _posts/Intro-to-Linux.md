@@ -1,5 +1,6 @@
 ---
 title: Introduction to Linux
+permalink: /Intro-to-Linux/
 time: 2024-12-09 02:30:00
 categories: [Linux]
 tags: [knowledge, linux]
