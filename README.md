@@ -41,3 +41,13 @@ This work is published under [MIT][mit] License.
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+## Tutorials
+
+1.Reopen in a Dev Container:
+- Press Ctrl+Shift+P (or Cmd+Shift+P on Mac) to open the Command Palette.
+- Search for "Reopen in Container" and select it.
+- VS Code will build and open the repository in the container if a .devcontainer   configuration exists. (Make sure your docker is initialized)
+
+2. Run the local server with sync changes with the code
+  ```bundle exec jekyll serve --host=0.0.0.0 --livereload --force_polling```
