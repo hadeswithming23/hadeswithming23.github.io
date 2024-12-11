@@ -1,6 +1,6 @@
 ---
 title: Text Operation in Linux
-time: 2024-12-10 01:47:00
+date: 2024-12-10 01:47:00 +0800
 categories: [Linux]
 tags: [knowledge, linux]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Network Analysis and Management
-time: 2024-12-10 22:10:00
+date: 2024-12-10 22:10:00 +0800
 categories: [Linux]
 tags: [knowledge, linux]
 ---
