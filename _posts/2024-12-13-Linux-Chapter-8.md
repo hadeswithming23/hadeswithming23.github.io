@@ -143,37 +143,41 @@ echo "MySQL scan completed."
 ```bash
 #!/bin/bash
 
-# Function to get the last octet from an IP
-last_octet() {
-    echo $1 | awk -F '.' '{print $4}'
-}
-
 # Function to scan a range of IP addresses for a specific port
 scan_ports() {
     local base_ip=$1
-    local last_octet=$2
-    local port=$3
-    
-    echo "Scanning IP range $base_ip.$last_octet for port $port..."
-    nmap -p $port $base_ip.1-$last_octet | grep open
+    local start_octet=$2
+    local end_octet=$3
+    local port=$4
+
+    echo "Scanning IP range $base_ip.$start_octet to $base_ip.$end_octet for port $port..."
+
+    # Loop through the IP addresses
+    for ip in $(seq $start_octet $end_octet); do
+        nmap -p $port $base_ip.$ip | grep "open"
+    done
 }
 
-# Read target IP base
+# Input for base IP address
 echo -n "Enter the base IP (e.g., 192.168.1): "
 read base_ip
 
-# Get last octet
-echo -n "Enter the last octet (e.g., 100): "
-read last_octet
+# Starting last octet of the IP range
+echo -n "Enter the starting last octet (e.g., 50): "
+read start_octet
 
-# Port number
-echo -n "Enter the port number (e.g., 3306): "
+# Ending last octet of the IP range
+echo -n "Enter the ending last octet (e.g., 100): "
+read end_octet
+
+# Single port number
+echo -n "Enter the port number to scan (e.g., 3306): "
 read port
 
-# Scan and filter open ports
-scan_ports $base_ip $last_octet $port
+# Scan IPs and ports
+scan_ports $base_ip $start_octet $end_octet $port
 
-echo "Scan completed for IP range $base_ip.1-$last_octet on port $port."
+echo "Scan completed for IP range $base_ip.$start_octet-$end_octet on port $port."
 ```
 
 ## 8.4 Common Bash Script Commands
