@@ -32,10 +32,10 @@ tags: [knowledge, linux]
 ## 6.3 Viewing Processes
 - `ps`: Displays running processes.
 
- ![ps](assets/posts/chapter6linux2024/ps.png)
+ ![ps](assets/posts/Linux/chapter6linux2024/ps.png)
 
   - Example: `ps aux` shows all processes with detailed info.
-  ![psaux](assets/posts/chapter6linux2024/psaux.png)
+  ![psaux](assets/posts/Linux/chapter6linux2024/psaux.png)
 
   **Command Breakdown**:
   - `ps`: Process status.
@@ -115,7 +115,7 @@ tags: [knowledge, linux]
   - **CFS (Completely Fair Scheduler)**: Default for most processes.
   - **Real-Time Scheduling**: For high-priority tasks.
 - Priorities range:
-  ![priority](assets/posts/chapter6linux2024/priority.png)
+  ![priority](assets/posts/Linux/chapter6linux2024/priority.png)
   - `-20` (highest priority) to `19` (lowest priority).
 
 ## 6.7 Signals in Process Management

@@ -38,7 +38,7 @@ Please navigate through below link to install your VM under the tab Pre-built VM
 ## 1.2 Linux File System
 The Linux file system structure differs significantly from that of Windows. Unlike Windows, which organizes files under physical drives such as the C: drive, Linux employs a logical filesystem. At the top of this hierarchy is the root directory (/), which serves as the foundation of an inverted tree-like structure, as illustrated in the figure below.
 
-![linux1](assets/posts/chapter1linux2024/linux-directory-structure.png)
+![linux1](assets/posts/Linux/chapter1linux2024/linux-directory-structure.png)
 
 - /bin (User Binaries)
   - Contains essential binary executables for system operation and user commands, such as `ls`, `cp`, and `cat`, which are available to all users.
@@ -91,14 +91,14 @@ The Linux file system structure differs significantly from that of Windows. Unli
 ### Listing Files and Directories
 
 `ls` - List files and directories.
-![ls](assets/posts/chapter1linux2024/ls.png)
+![ls](assets/posts/Linux/chapter1linux2024/ls.png)
    - -l: Long format listing
   
-![ls-l](assets/posts/chapter1linux2024/ls-l.png)
+![ls-l](assets/posts/Linux/chapter1linux2024/ls-l.png)
    - -a: Include hidden files (starting with a dot `.`)
-  ![ls-a](assets/posts/chapter1linux2024/ls-a.png)
+  ![ls-a](assets/posts/Linux/chapter1linux2024/ls-a.png)
    - -la: List files and directories in a detailed, long format including hidden files.
-  ![ls-la](assets/posts/chapter1linux2024/ls-la.png) 
+  ![ls-la](assets/posts/Linux/chapter1linux2024/ls-la.png) 
   
   In this example:
   - . represents the current directory.
@@ -112,18 +112,18 @@ The Linux file system structure differs significantly from that of Windows. Unli
 ### Change Directory 
 
 - `cd /path/to/directory`: changes the current directory to the specified path
-![cd](assets/posts/chapter1linux2024/cd.png)
+![cd](assets/posts/Linux/chapter1linux2024/cd.png)
 
 ### Print Current Working Directory
 `pwd`: displays the current working directory
 
-![pwd](assets/posts/chapter1linux2024/pwd.png)
+![pwd](assets/posts/Linux/chapter1linux2024/pwd.png)
 
 ### Create a New Directory
 
 `mkdir` - Create a new directory
 
-![mkdir](assets/posts/chapter1linux2024/mkdir.png)
+![mkdir](assets/posts/Linux/chapter1linux2024/mkdir.png)
 
 ### Remove Files and Directories
 
@@ -174,7 +174,7 @@ The Linux file system structure differs significantly from that of Windows. Unli
 ### Search for Files and Directories
 `find /path/to/search -name "*.txt"`: searches for all files with the extension ".txt" in the specified directory
 
-![find](assets/posts/chapter1linux2024/find.png)
+![find](assets/posts/Linux/chapter1linux2024/find.png)
 
 
 ## 1.4 File Permission Commands

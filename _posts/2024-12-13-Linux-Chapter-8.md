@@ -75,7 +75,7 @@ echo "Great choice, $name! $language is an excellent programming language."
 
 **Example Workflow**
 
-![read](assets/posts/chapter8linux2024/read.png)
+![read](assets/posts/Linux/chapter8linux2024/read.png)
 
 
 ## 8.3 Script to Scan Open Ports Using Nmap

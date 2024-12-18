@@ -16,7 +16,7 @@ tags: [linux, knowledge]
   - **Character devices**: Represent input/output devices (e.g., `/dev/tty`).
 
 ## 10.2 Device Representation in `/dev`
-![example](assets/posts/chapter10linux2024/ls.png)
+![example](assets/posts/Linux/chapter10linux2024/ls.png)
 - the first character that is `b` represents block devices, while `c` belongs to character devices
 
 **Block Devices**
@@ -47,10 +47,10 @@ tags: [linux, knowledge]
 **Listing Devices**
 Use `lsblk` or `fdisk` to view available devices:
 - `lsblk` – Displays block devices and their partitions.
-  ![lsblk](assets/posts/chapter10linux2024/lsblk.png)
+  ![lsblk](assets/posts/Linux/chapter10linux2024/lsblk.png)
 
 - `fdisk -l` – Provides detailed partition information.
-  ![fdisk](assets/posts/chapter10linux2024/fsdisk.png)
+  ![fdisk](assets/posts/Linux/chapter10linux2024/fsdisk.png)
 
 ## 10.5 Mount and Unmount in Linux
 

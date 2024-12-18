@@ -13,28 +13,28 @@ This section uses some of the files in the Network Intrusion Detection System (N
 ## 2.1 Check The File Contents
 `cat /etc/snort/snort.lua`: The new version of Snort 3.0 uses snort.lua instead of snort.conf
 
-![cat_snort.lua](assets/posts/chapter2linux2024/catsnortlua.png)
+![cat_snort.lua](assets/posts/Linux/chapter2linux2024/catsnortlua.png)
 
 ### 2.1.1 Getting the Header of the File
 `head /etc/snort/snort.lua`: The first 10 lines of the snort.lua file
 
-![head_snort.lua](assets/posts/chapter2linux2024/headsnortlua.png)
+![head_snort.lua](assets/posts/Linux/chapter2linux2024/headsnortlua.png)
 
 ### 2.1.2 Getting the End of the File
 `tail /etc/snort/snort.lua`: The last 10 lines of the snort.lua file
 
-![tail_snort.lua](assets/posts/chapter2linux2024/tailsnortlua.png)
+![tail_snort.lua](assets/posts/Linux/chapter2linux2024/tailsnortlua.png)
 
 ### 2.1.3 Mark the Line Number
 `nl /etc/snort/snort.lua`: Number the lines of a file and display the content with the added line numbers.
 
-![nl_snort.lua](assets/posts/chapter2linux2024/nlsnortlua.png)
+![nl_snort.lua](assets/posts/Linux/chapter2linux2024/nlsnortlua.png)
 
 
 ## 2.2 Filter the Contents Using Command 'grep'
 `nl /etc/snort/snort.lua | grep log`:Show the number line and filter the word that matches log
 
-![grep_snort.lua](assets/posts/chapter2linux2024/grepsnortlua.png)
+![grep_snort.lua](assets/posts/Linux/chapter2linux2024/grepsnortlua.png)
 
 ## 2.3 Find and Replace With the 'sed' Command
 

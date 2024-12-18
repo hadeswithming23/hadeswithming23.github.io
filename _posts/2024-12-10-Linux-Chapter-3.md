@@ -25,7 +25,7 @@ Modify Network Settings:
 Troubleshooting:
 - Check network connectivity issues or diagnose interface problems.
 
-![ipconfig](assets/posts/chapter3linux2024/ipconfig.png)
+![ipconfig](assets/posts/Linux/chapter3linux2024/ipconfig.png)
 
 ### 3.1.1 Network Interface Information (`ifconfig`)
 
@@ -51,7 +51,7 @@ Troubleshooting:
 ## 3.2 Checking Wireless Network Devices With the `iwconfig` Command
 If you have one wireless adapter, then you can use the `iwconfig` command to gather critical information needed for a wireless attack, such as the adapter's ip address, mac address, the mode it's in, and much more!
 
-![iwconfig](assets/posts/chapter3linux2024/iwconfig.png)
+![iwconfig](assets/posts/Linux/chapter3linux2024/iwconfig.png)
 
 ### 3.2.1 Wireless Network Interface Information (`iwconfig`)
 
@@ -81,10 +81,10 @@ Changing network information, such as the IP address, is a valuable skill for ne
 
 In forensic analysis, IP spoofing can make it difficult to trace the true origin of malicious activity, which is why understanding how to manipulate network information is critical.
 
-![changeip](assets/posts/chapter3linux2024/changeip.png)
+![changeip](assets/posts/Linux/chapter3linux2024/changeip.png)
 
 ### 3.3.2 Changing Netmask and Broadcast Address
-![netmaskandbroad](assets/posts/chapter3linux2024/netmask.png)
+![netmaskandbroad](assets/posts/Linux/chapter3linux2024/netmask.png)
 
 
 ### 3.3.3 Spoofing MAC Address
