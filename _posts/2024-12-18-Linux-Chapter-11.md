@@ -128,3 +128,53 @@ Example `/etc/logrotate.conf`:
 ```
 
 ![logrotate](assets/posts/Linux/chapter11linux2024/logrotate.png)
+
+
+## 11.4 Keep Anonymous
+Keeping anonymous while performing pentesting in Linux is crucial to protect your identity and prevent detection.
+
+### 11.4.1 Shred Command in Linux
+The **`shred`** command is a Linux utility used to securely delete files by overwriting their content multiple times, making it difficult to recover the data.
+
+**Common Options**
+
+| **Option** | **Description**                                   |
+| ---------- | ------------------------------------------------- |
+| `-u`       | Remove the file after overwriting it.             |
+| `-n [N]`   | Overwrite the file N times (default is 3).        |
+| `-z`       | Add a final overwrite with zeros for concealment. |
+| `-v`       | Show verbose output while shreddi                 |
+
+
+**Features of Shred**
+- Overwrites file content multiple times with random data.
+- Can delete the file after overwriting.
+- Adds a final overwrite with zeros for concealment.
+
+**Limitations**
+- Effective only for traditional HDDs.
+- Not reliable for SSDs or flash storage due to wear leveling.
+- May not securely delete files on journaled file systems (e.g., ext3, ext4) if the data is logged elsewhere.
+
+
+### 11.4.2 Managing the Rsyslog Service
+
+The `rsyslog` service manages system logs in Linux. It can be stopped, restarted, or configured for maintenance.
+
+**Stop the Service**
+To stop the `rsyslog` service:
+```bash
+sudo systemctl stop rsyslog
+```
+**Common Options**
+
+| **Option** | **Description**                                      |
+| ---------- | ---------------------------------------------------- |
+| `start`    | Start the service.                                   |
+| `stop`     | Stop the service.                                    |
+| `restart`  | Restart the service.                                 |
+| `status`   | Check the current status of the service.             |
+| `enable`   | Enable the service to start on boot.                 |
+| `disable`  | Disable the service from starting on boot.           |
+| `reload`   | Reload the service configuration without restarting. |
+| `status`   | Display the service status.                          |
